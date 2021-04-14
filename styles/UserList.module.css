@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.main img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.userData {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+

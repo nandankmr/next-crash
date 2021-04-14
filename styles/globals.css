@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.page-container {
+  flex: 1;
+  height: 100vh;
+  flex-direction: column;
+}
