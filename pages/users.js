@@ -4,7 +4,6 @@ const UserList = ({ users }) => {
   console.log(users);
   return (
     <div className="page-container">
-      <h1>Employee of the Month</h1>
       <div className={styles.main}>
         <img src={users.data[0].picture}></img>
         <span className={styles.userData}>
