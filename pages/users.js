@@ -1,11 +1,11 @@
-import { Toolbar } from "../components/ToolBar";
+import { Toolbar } from "../components/toolbar";
 import styles from "../styles/UserList.module.css";
 
 const UserList = ({ users }) => {
   console.log(users);
   return (
     <div className="page-container">
-      <Toolbar/>
+      <Toolbar />
       <div className={styles.main}>
         <img src={users.data[0].picture}></img>
         <span className={styles.userData}>
